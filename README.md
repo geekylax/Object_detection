@@ -1,5 +1,7 @@
 ## Intro
 
+# This repo is insiratioon from siraj raval youtube video and references from darkflow 
+
 
 Real-time object detection and classification. Paper: [version 1](https://arxiv.org/pdf/1506.02640.pdf), [version 2](https://arxiv.org/pdf/1612.08242.pdf).
 
@@ -19,7 +21,6 @@ Python3, tensorflow 1.0, numpy, opencv 3.
 You can choose _one_ of the following three ways to get started with darkflow.
 Here is my sample output of mine 
 [this imgurl](https://github.com/geekylax/Object_detection/blob/master/sample_img/out/siva.jpg)
-<p align="center"> <img src="https://github.com/geekylax/Object_detection/tree/master/sample_img/out"/> </p>
 
 1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
     ```
@@ -157,7 +158,7 @@ tar xf VOCtest_06-Nov-2007.tar
 vim VOCdevkit/VOC2007/Annotations/000001.xml
 
 # Train the net on the Pascal dataset:
-flow --model cfg/yolo-new.cfg --train --dataset "~/VOCdevkit/VOC2007/JPEGImages" --annotation "~/VOCdevkit/VOC2007/Annotations"
+python flow --model cfg/yolo-new.cfg --train --dataset "~/VOCdevkit/VOC2007/JPEGImages" --annotation "~/VOCdevkit/VOC2007/Annotations"
 ```
 
 ### Training on your own dataset
