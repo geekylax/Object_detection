@@ -18,7 +18,8 @@ Python3, tensorflow 1.0, numpy, opencv 3.
 
 You can choose _one_ of the following three ways to get started with darkflow.
 Here is my sample output of mine 
-<p align="center"> <img src="Object_detection/sample_img/out/siva.jpg"/> </p>
+[this imgurl](https://github.com/geekylax/Object_detection/blob/master/sample_img/out/siva.jpg)
+<p align="center"> <img src="https://github.com/geekylax/Object_detection/tree/master/sample_img/out"/> </p>
 
 1. Just build the Cython extensions in place. NOTE: If installing this way you will have to use `./flow` in the cloned darkflow directory instead of `flow` as darkflow is not installed globally.
     ```
